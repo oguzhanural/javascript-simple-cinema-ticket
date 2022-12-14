@@ -10,7 +10,7 @@ calculateTotal();
 
 container.addEventListener("click",function(e){
     
-    if (e.target.classList.contains('seat') && !e.target.classList.contains('reserved')) {      //contains classList içerisinde gönderilen parametrenin olup olmadığı kontrolünü sağlar.
+    if (e.target.classList.contains('seat') && !e.target.classList.contains('reserved')) {   
         //console.log(e.target);
         e.target.classList.toggle('selected');
         calculateTotal();
